@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(247, 199, 240);
+    text-align: center;
+
+
+  }
+
+.myClass{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+  ul {
+    list-style-type: none;
+    margin: -10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    display: flex;
+    justify-content: space-around;  /* For keeping the navigation bar centered even if resize */
+  }
+  
+  li {
+    float: left;
+
+  }
+  
+  li a {
+    text-align: center;
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  
+  li a:hover {
+    border-radius: 50px;
+    background-color: rgb(70, 70, 70); 
+    border-style:groove;
+    transition: 1.2s;
+    
+  }
+
+
+  .footer{   /* The "." is present only when there is a class. */ 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+
+
+  }
+
+  .image{
+    width: 500px;
+    border-radius: 30%;
+    
+  }
